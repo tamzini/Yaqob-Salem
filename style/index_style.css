@@ -1,0 +1,485 @@
+
+*{
+	margin: 0px;
+	padding: 0px ;
+}
+
+body {
+	font-family: verdana,arial, "sans serif" ;
+	width: 70%;
+	margin: 0px auto ;
+	
+	color: white ;
+	/* background-image: url("pic1.jpg"); 
+	background-repeat: no-repeat;
+	background-position:middle ;*/
+	background-color: black ;
+}
+
+.logo {
+	float: left;
+	width: 20%;
+	margin: 10px 0px 0px 0px ;
+
+}
+.logo img {
+	width: 120px ; 
+	height: 120px;
+	margin: 10px 0px 0px 10px ;
+
+	
+}
+.logo img:hover {
+	width: 123px ; 
+	height: 123px;
+}
+.title {
+	float: left;
+	color: black;
+	
+	margin: 30px 0px 0px 30px ;
+	width: 20% ;
+}
+.menu {
+	display: none;
+}
+
+.mainImage {
+	margin: 0px auto;
+	padding: 0px ;
+	width: 100% ;
+	clear: both;
+	
+}
+.mainImage img {
+	width: 100%;
+	
+}
+.mainImage img:hover{
+	width: 100.5% ;
+}
+
+
+
+/*  ====== Nav menu ==== */
+
+.nav {
+	clear: both;
+	width: 80%;
+	margin: 0px auto;
+}
+.nav li {
+	float: left;
+	list-style: none;
+	width: 20%;
+	
+	text-align: center;
+	font-size: 18px ;
+	color: white ;
+	margin-right: 5%;
+}
+.nav li:hover {
+	font-size: 19px ;
+}
+.nav a {
+	text-decoration: none;
+	display: block;
+}
+li.yellow a {
+	color: #c1a96c ;
+}
+li.grey a {
+	color: #514b4f ;
+}
+li.lightBlue  a{
+	color: lightblue ;
+
+}
+li.pink a {
+	color: pink ;
+}
+
+/* == socail media ======*/
+
+.socialMedia {
+	width: 100% ;
+	float: right;
+	margin-top: -20px ;
+	margin-right: 10px ;
+	
+	
+}
+.socialMedia img{
+	
+	width: 50px;
+	height: 50px ;
+	
+}
+.socialMedia li {
+	
+	list-style: none;
+	float: right ;
+	width: 50px;
+	height: 50px ;
+}
+
+.socialMedia a{
+	
+	display: block;
+}
+
+.faceBook :hover {
+	background-color: #3A5795 ;
+}
+.twitter :hover {
+	background-color: #55ACEE ;
+	
+}
+.youTube :hover {
+	background-color: #E62117 ;
+}
+.email :hover {
+	background-color: #EBC12E;
+}
+
+.pint :hover {
+	background-color: #CA2128;
+}
+
+
+
+/* ============= main div ======= */
+
+.main {
+	
+	clear: both;
+	width: 100% ;
+	margin-top: 50px;
+}
+.main h1 {
+	color: orange;
+	font-size: 25px ;
+	margin: 50px 0px 30px 50px ;
+}
+.main p {
+	font-size: 15px ;
+	padding: 10px 50px ;
+	text-align: justify;
+	width: 65% ;
+}
+/* ============= sidenav div ======= */
+.sideNav {
+	position: fixed;
+	top: 250px ;
+	left: 0px ;
+}
+.sideNav li {
+	list-style: none;
+	width: 50px ;
+	height: 50px ;
+	background-color: grey ;
+	font-size: 10px ;
+	
+	line-height: 45px ;
+	padding-left: 5px ;
+}
+.sideNav a {
+	text-decoration: none;
+	color: white ;
+	text-shadow: 3px 3px 2px black;
+}
+
+.sideNav li:hover {
+	width: 60px;
+}
+li.sideHome {
+	background-color: #3A5795 ; 
+}
+li.sideSkills {
+	background-color: orange ; 
+}
+li.sideWork {
+	background-color: red ; 
+}
+li.sideContact {
+	background-color: green ; 
+}
+
+.sideNav img {
+	margin-left: -30px ;
+	width: 80px;
+	height: 80px;
+}
+ 
+/* ========= End of sidenav ============*/
+
+
+/* ===============================*/
+
+/* ============= skills div ============*/
+.skills {
+	
+	width: 60% ;
+	margin:250px auto;
+	
+
+}
+.skills p {
+	margin-bottom: 50px ;
+	color: black ;
+}
+.skills img {
+	width: 100% ;
+
+}
+.skills h1 {
+	color: orange ;
+	text-align: center ;
+	margin-top: 50px ;
+	margin-bottom: 30px ;
+}
+.skills li {
+	list-style: none;
+	color: #55ACEE ;
+	width: 30% ;
+	float: left;
+	text-align: center;
+	line-height: 30px ;
+}
+
+.homePage {
+	width: 50px ;
+	height: 50px ;
+	float: right;
+	position: relative;
+	top: 50px;
+	right: 10px ;
+	
+}
+.homePage img {
+	width: 50px ;
+	height: 50px ;
+}
+
+
+/* ==========End of skills div ===========*/
+
+/* ==========my work div ===========*/
+
+
+.experience {
+	clear: both;
+	width: 50% ;
+	margin: 100px auto ;
+	
+}
+.myWorkLogo {
+	width: 200px;
+	margin: 50px auto;
+}
+.myWorkLogo img {
+	margin-top: 50px;
+	width: 120px;
+}
+.experience h3 {
+	color: orange ;
+	text-align: center;
+	margin: 50px auto;
+	font-size: 25px ;
+}
+.myWork li {
+	list-style: none;
+	margin: 80px 0px ;
+}
+.myWork img {
+	border-radius: 20px;
+	width: 100% ;
+
+}
+img.gitHubImage {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-left: 5px;
+}
+.gitHubSpan {
+	float: right;
+	line-height: 30px ;
+	font-size: 12px;
+	color:white;
+}
+.gitHubSpan:hover {
+	color: #5D297E;
+}
+/* ========== contact us div   === */
+#contactTag {
+	margin-bottom: 50px ;
+	color: black ;
+}
+.contactUs {
+	
+	width: 100% ;
+	
+	
+	margin: 200px auto ;
+}
+.contactUs h3 {
+	color: orange ;
+    margin-top: 30px ;
+	margin-bottom: 30px ;
+	font-size: 25px ;
+}
+.map {
+	width: 45% ;
+	
+	float: left;
+	margin-right: 5%;
+	
+}
+.mapIframe {
+	height: 400px ;
+	width: 100% ;
+	
+}
+
+.form {
+	float: left;
+	width: 40% ;
+	
+	font-size: 15px;
+	margin-right: 10% ;
+
+}
+.form .contact {
+	float: left;
+	margin-top:50px ;
+	width: 60% ;
+
+} 
+.contactForm {
+	width: 100% ;
+	clear: both;
+	font-size: 15px;
+	height: 30px ;
+
+}
+.contactForm:hover {
+	height: 33px ;
+	border-bottom-width: 3px ;
+}
+.textArea {
+	width: 100.5%;
+	height: 80px ;
+	font-size: 15px;
+}
+.textArea:hover {
+	height: 83px ;
+	border-bottom-width: 3px ;
+}
+.submit {
+	padding: 5px 20px ;
+	font-size: 20px ;
+}
+.form h3 {
+	
+	margin-bottom: 20px ;
+}
+
+
+/* === End of contact  === */
+
+/* === footer === */
+.footer {
+	margin-top: 600px ;
+	clear: both;
+	width: 100% ;
+	height: 550px ;
+	background-color:  ;
+}
+.footerImage {
+	width: 100% ;
+	margin: 0px auto;
+}
+.footerImage img {
+	width: 100%;
+	
+}
+
+
+.footerNav {
+	width: 65% ;
+	float: left;
+	margin-top: 50px ;
+	
+}
+
+.footerNav li {
+	
+	list-style: none;
+	width: 50%;
+	height: 50px ;
+	text-align: left;
+	font-size: 15px ;
+	color: white ;
+	margin-left: 20% ;
+	border-bottom: 1px solid lightgrey ;
+	line-height: 45px ;
+}
+
+.footerNav li:hover {
+	border-bottom: 3px solid white ;
+	
+}
+.footerNav a {
+	text-decoration: none;
+}
+.contact {
+	width: 30% ;
+	
+	float: right ;
+	margin-top: 120px ;
+
+
+}
+.contact img {
+	width: 50px ;
+	height: 50px ;
+	
+	
+}
+
+.contact li {
+	margin-left: 1% ;
+	list-style: none;
+	border-bottom: 1px solid lightgrey ;
+	}
+.contact span {
+	position: relative;
+	top: -15px ;
+	color: white ;
+	line-height: 0px ;
+	
+	
+}
+.contact li:hover {
+	border-bottom: 3px solid white ;
+}
+
+#copyRights {
+	width: 100%;
+	
+	clear: both;
+	color: orange;
+	font-size: 12px ;
+	position: relative;
+	top: 50px ;
+	margin-bottom: 30px ;
+
+}
+#copyRights p {
+	width: 50% ;
+	
+	margin: 20px auto ;
+	text-align: center;
+	
+}
