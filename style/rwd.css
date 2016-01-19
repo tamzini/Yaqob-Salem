@@ -1,0 +1,268 @@
+
+/* ++++++++++++++ Mobile First Responsive +++++++++++++++++ */
+
+	* {
+		margin: 0px;
+		padding: 0px ;
+	    }
+	body {
+		width: 100%;
+		margin: 0px auto ;
+		font-family: Verdana,Arial, "sans serif" ;
+		background-color: #484844;
+		padding-top: 100px;
+         }
+
+/* header div */
+.header {
+	     position: fixed;
+	     top: 0px;
+         width: 100%;
+         height: 100px;
+         margin-top: 0px;
+         border-bottom: 2px solid #484844 ;
+         background-color:#FFFFFF ;
+         
+          }
+
+ .logo {
+ 	float: left;
+ 	width: 80px;
+ 	height: 80px;
+ 	margin: 10px 10px;
+ }         
+ .logo img {
+ 	width: 80px;
+ 	height: 80px;
+ 	border-radius: 40px;
+ 	border: 1px solid black;
+ 	
+ } 
+ .title  {
+ 	float: left;
+ 	color: #E45A30;
+ 	font-weight: bolder;
+ 	margin-top: 30px;
+
+ }  
+  .title h4 {
+    font-size: 20px;
+ 
+ }
+ .title h6 {
+    font-size: 15px;
+ }
+ 
+ 
+ .contact1 {
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: 10px;
+ } 
+ .contact1 img {
+ 	width: 40px;
+ }
+/* End of header */
+
+
+/* nav dev */
+ .nav {
+ 	position: fixed;
+ 	top: 100px;
+ 	clear: both ;
+ 	width: 100%;
+ 	color: #FFFFFF;	
+ 	
+ }
+ 
+  .nav li {
+ 	float: left;
+    list-style: none;
+    width: 25%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align:center;
+    background-color: #E45A30;
+    line-height: 35px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey ;
+    border-right: 1px solid grey ;
+    
+   
+ }
+ .nav li:hover {
+ 	background-color: lightgrey ;
+ }
+ .nav a {
+ 	text-decoration: none;
+ 	color: white ;
+ 	display: block;
+ }
+ .nav a:hover {
+ 	color: black;
+ }
+ /* End of nav */
+
+ /* ==========my work div ===========*/
+
+.experience {
+
+	clear: both;
+	width: 80% ;
+	margin: 0px auto ;
+	margin-top: 0px;
+	margin-bottom: 0px ;
+	background-color: #484844;
+
+}
+
+#experience {
+	clear: both;
+	margin-bottom:140px;
+	color: #484844;
+}
+.experience h3 {
+	color: white;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 15px ;
+	font-weight: normal;
+
+}
+
+.mywork {
+	width: 100%;
+}
+.myWork li {
+	width: 100%;
+	list-style: none;
+	margin: 30px 0px 80px 0px;
+}
+.myWork img {
+	width: 100% ;
+	box-shadow: 8px 8px 2px black ;
+}
+
+img.gitHubImage {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-left: 5px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 0px transparent ;
+}
+.gitHubSpan {
+	float: right;
+	line-height: 40px ;
+	margin-top: 25;
+	font-size: 10px;
+	color:white;
+	
+}
+.gitHubSpan:hover {
+	color: #5D297E;
+}
+
+#skills {
+	margin-bottom: 140px ;
+	color: #484844 ;
+}
+.skills {
+	width: 80%;
+	margin: 0px auto ;
+}
+.skillspara {
+	text-align: center;
+	width: 100%;
+	background-color: white ;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 10px 0px ;
+}
+
+.skillspara img {
+	width: 200px;
+}
+
+.aboutMe {
+ 	clear: both;
+ 	width: 100%;
+ 	color: white ;
+ }
+ .aboutMe h6 {
+ 	font-size: 25px ;
+ 	font-weight: normal;
+ 	margin: 20px 0px;
+ 	padding: 0px 0px;
+ 	color: #E45A30;
+ }
+ .aboutMe p {
+ 	font-size: 15px;
+ 	margin: 10px 0px ;
+ 	padding: 0px 0px;
+ 	text-align: justify;
+ }
+
+/* End of work dev */
+
+/* contacts dev */
+
+.contact2 {
+	clear: both;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom:20px;
+	background-color: #FFFFFF ;
+	font-size: 15px;
+	text-align: center;
+               }
+ .contact2 h5 {
+ 	color: #E45A30;
+ 	margin-top: 50px ;
+ 	margin-bottom:50px; 
+ 	font-size: 25px;
+ 	font-weight: normal;
+
+ }
+ .contact2 li {
+ 	width: 100%;
+ 	height: 120px;
+ 	list-style: none;
+ 	margin-top: 0px;
+ 	
+ }
+ .contact2 img {
+ 	width: 50px;
+ }
+ .contact2 p {
+margin-top: 10px;
+ }  
+ .contact2 a {
+ 	text-decoration: none;
+ 	color: #646363;
+ } 
+ contact2 a:hover {
+ 	color: #E45A30;
+ }
+ 
+ /* footer */
+
+ .footer {
+    clear: both;
+ 	width: 100%;
+ 	height: 50px ;
+ 	background-color: #484844 ;
+
+ }  
+ .footer p {
+ 	padding-top: 20px;
+ 	color: #E45A30;
+ 	font-size: 13px;
+ 	text-align: center;
+
+ }       
+	
+
+
